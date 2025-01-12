@@ -1,0 +1,159 @@
+*{ box-sizing: border-box;}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    font-family: "Quicksand", sans-serif;
+}
+
+header p {
+    color: white;
+}
+
+header .Jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    color: #faed25;
+    background-color: orange;
+}
+
+header .Jumbotron img {
+    width: 10%;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+}
+
+nav ul{
+    background: yellow;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+
+display: inline-block;
+padding: 16px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #122b24;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.content {
+    float: left;
+    width: 50%;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #47a43a;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+.leftside {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.leftside img {
+    width: 100px;
+    height: 100px;
+}
+.rightside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.rightside img {
+    width: 100px;
+    height: 100px;
+}
+
+.articles li:hover {
+    background-color: limegreen;
+}
+.profile{
+    text-align: center;
+}
+.rounded{
+    border-radius: 50%;
+}
+.leftside .sosmed img{
+    width: 50px;
+    height: 50px;
+}
+.leftside .sosmed img:hover{
+    opacity: 0.7;
+}
+.content a:hover{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding: 5px;
+    background-color: orange;
+    text-align: center;
+    color: aquamarine;
+}
+
+footer .imgn{width: 5%;
+height: 5%;
+}
+
+footer .imgn:hover {
+content: url(Assets/avatar.png);
+}
+
+footer .imgx {
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    line-height: 63px;
+    background: orange;
+    border-radius: 56%;
+    font-size: 30px;
+    color: #666;
+    transition: 5s;
+}
+
+footer .imgx:hover {
+    background: #ffee10;
+    box-shadow: 0 0 15px #ffee10;
+}
+
+.glow:hover {
+    color: white;
+    text-shadow: 0 0 5px #ffee10;
+}
+
